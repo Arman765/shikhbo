@@ -25,9 +25,40 @@ body{
     color: white;
   }
 
+  .fa-star,.fa-star-half{
+    color: rgb(255, 255, 0);
+  }
+
+ .positionright{
+    position: relative;
+    right: -96%;
+    top: -50%;
+ }
+ .positionleft{
+    position: relative;
+    right: -1%;
+    top: -50%;
+ }
+
   @media only screen  and (max-width:767px){
     #widthmax{
         width: 100%;
     }
     
+    
   }
+  
+  @media only screen  and (max-width:991px){
+
+    .positionleft{
+      visibility: hidden;
+    }
+    .positionright
+    {
+      visibility: hidden;
+    }
+  }
+  
+  
+    
+ 
